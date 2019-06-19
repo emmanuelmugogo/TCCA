@@ -1067,8 +1067,8 @@ footer ul.social-networks li a i.icon-twitter:hover {
 	background: #5ad2eb;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-dribbble:hover {
-	background: #f57b71;
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #4286f4;
 	color: #fff;
 }
 footer ul.social-networks li a i.icon-pinterest:hover {
@@ -1705,4 +1705,20 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}
+
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
